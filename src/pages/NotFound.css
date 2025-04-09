@@ -1,0 +1,42 @@
+.not-found {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: fadeIn 0.7s ease-in-out;
+   
+  }
+  
+.not-found h1{
+  font-size: 5rem;
+  
+}
+  .not-found p {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #666;
+    
+  }
+  
+  .h-link {
+    background: linear-gradient(to right, #49a09d, #5f2c82);
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+   
+  }
+  
+  .h-link:hover {
+    transform: scale(1.05);
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  

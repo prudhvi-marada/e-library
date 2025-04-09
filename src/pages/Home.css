@@ -1,0 +1,64 @@
+.home {
+    padding: 2rem;
+    text-align: center;
+    animation: fadeIn 1s ease;
+   
+  }
+  
+  .home h1 {
+    font-size: 2.5rem;
+    color: #5f2c82;
+    margin-bottom: 2rem;
+  }
+  
+  .categories h2,
+  .popular h2 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cat-item {
+    background: linear-gradient(to right, #49a09d, #5f2c82);
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+  }
+  
+  .cat-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .popular ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .popular li {
+    margin: 0.5rem 0;
+  }
+  
+  .popular a {
+    color: #49a09d;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .popular a:hover {
+    color: #5f2c82;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
